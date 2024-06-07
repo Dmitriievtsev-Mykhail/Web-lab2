@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/contacts.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="body">
+        <header>
+            <nav class="navbar navbar-dark fixed-top navbar-expand-sm bg-black bg-opacity-75">
+                <div class="container-fluid">
+                    <img src="/img/contacts.png" class="d-block mx-lg-auto img-fluid" alt="logo" width="50" height="50"
+                        loading="lazy">
+                    <a class="navbar-brand fs-3" href="/index.html">Telenumb.yours</a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                        aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarID">
+                        <div class="navbar-nav ms-auto gap-2">
+                            <a href="/html/create_contact.html" class="purplebtn btn" role="button"
+                                data-bs-toggle="button">Cтворити контакт</a>
+                            <a href="/html/profile.html" class="purplebtn btn" role="button"
+                                data-bs-toggle="button">Профіль</a>
+                            <a href="/html/registration.html" class="purplebtn btn" role="button"
+                                data-bs-toggle="button">Зареєструватися</a>
+                            <a href="/html/signin.html" class="btn btn-outline-light" role="button"
+                                data-bs-toggle="button">Увійти</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content">
+            <div class="signin">
+                <div class="container border border-dark rounded-2 mb-0 bg-dark text-light bg-opacity-50">
+                    <h1 class="text-center text-light">Вхід</h1>
+                    <div class="form-container">
+                        <form id="signinForm" method="POST" action="#">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Пошта</label>
+                                <input type="email" class="form-control bg-dark border-dark text-light" id="email"
+                                    name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Пароль</label>
+                                <input type="password" class="form-control bg-dark border-dark text-light" id="password"
+                                    name="password" required>
+                            </div>
+                            <div class="button1">
+                                <button type="button" class="purplebtn btn btn-secondary text-dark mb-2"
+                                    onclick="signinUser()">Увійти</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand disabled" tabindex="-1" aria-disabled="true">Created by Dmitriievtsev Mykhail
+                        KV-12</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="https://t.me/muxasuk_demitresku"
+                                    target="_blank">Telegram</a>
+                            </li>
+                            <a class="nav-link disabled position-absolute end-0" tabindex="-1"
+                                aria-disabled="true">Powered by Twitter Bootstrap 5</a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

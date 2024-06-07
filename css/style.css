@@ -1,0 +1,95 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(39, 107, 79) 0%, rgba(80, 219, 111, 1) 25%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+}
+
+.body {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.registration {
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 500px;
+}
+
+.signin {
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 500px;
+}
+
+.purplebtn {
+    background-color: #e6ee54;
+}
+
+.purplebtn:hover {
+    background-color: #e06565;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.info1 {
+    margin-top: 90px;
+}
+
+.info_profile {
+    margin-top: 56px;
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.create_contact {
+    margin-top: 250px;
+    margin-right: 200px;
+}
+
+.create_contact {
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 500px;
+}
+
+.info3 {
+    margin-left: auto;
+}
+
+.list-group-item {
+    background-color: #21252969;
+    color: #f0f0f0;
+    border: #21252969;
+}
+
+.contact_table {
+    color: #ebeaea;
+}
